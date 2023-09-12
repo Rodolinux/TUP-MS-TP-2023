@@ -9,3 +9,7 @@
 ## Roles
 
 [![](https://app.eraser.io/workspace/FFotTZk3Lk19JUcGdOzE/preview?elements=n2CH-pBjpHi1gfmSxsy-xg&type=embed&theme=dark)](https://app.eraser.io/workspace/FFotTZk3Lk19JUcGdOzE?elements=n2CH-pBjpHi1gfmSxsy-xg)
+
+## DER
+
+[View on Eraser![](https://app.eraser.io/workspace/FFotTZk3Lk19JUcGdOzE/preview?elements=0notOCAtuxk0vfh16FJecQ&type=embed&theme=dark)](https://app.eraser.io/workspace/FFotTZk3Lk19JUcGdOzE?elements=0notOCAtuxk0vfh16FJecQ)
