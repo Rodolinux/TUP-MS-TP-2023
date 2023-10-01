@@ -1,0 +1,35 @@
+ROL ( [PK]id_rol, nombre, descripcion )
+
+USUARIO ([PK]id_usuario, [FK]id_rol, [FK]dni)
+
+PERSONA ( [PK]Dni, nombre, apellido, direccion, [FK]codigo_postal, telefono, correo, [FK]id_usuario)
+
+CIUDAD ([PK]Codigo_Postal, localidad, provincia)
+
+CLIENTE ([PK]id_cliente, [FK]dni, AMB_Cliente)
+
+DOCENTE ([PK]legajo, [FK]dni, comision_docente)
+
+EMPLEADO ([PK]legajo_empleado, [FK]Dni_empleado FK, cargo)
+
+PROVEEDOR ([PK]id_proveedor, [FK]dni, tipo_iva, tipo_insumo, activo)
+
+BONO ([PK]FECHA (TimeSpam), [FK]legajo_empleado, [FK]id_sucursal, productividad, bono_global, total_bono_capacitacion)
+
+FACTURACION ([PK]Numero_Factura, [FK]id_cliente, [FK]id_sucursal, [FK]id_punto_venta, nro_comprobante, tipo_comprobante,
+fecha_comprobante, [FK]id_forma_pago, [FK]id_curso, [FK]legajo_docente, [FK]id_item, cantidad)
+
+ITEM ([PK]Item_Id, precio_unitario, precio_iva, nombre)
+
+PUNTO_VENTA ([PK]id_punto_venta, nombre, descripcion)
+
+FORMA_PAGO ([PK]id_forma_pago, nombre, descripcion)
+
+SUCURSAL ([PK]Id_Sucursal, nombre, direccion, [FK]codigo_postal)
+
+CURSOS ([PK]id_Curso, [FK]legajo_docente, descripcion, categoria, duracion, precio, virtual_presencial, 
+localidad_presencial, ABM_curso)
+  
+STOCK ([PK]Nro_Stock, [FK]id_item, [FK]id_proveedor, [FK]id_sucursal, cantidad, in_out)
+
+COMPRAS([PK]id_Compra, [FK]id_proveedor, fecha, [FK]id_articulo, cantidad, estado)
