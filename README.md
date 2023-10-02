@@ -1,1 +1,7 @@
-# TUP - Metodología de sistemas - 2023
+Metodología de sistemas - 2023
+
+Integrantes 
+
+-Landra Mariano
+-Martinez Lucas
+-Walter Fatima
