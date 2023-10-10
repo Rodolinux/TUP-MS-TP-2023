@@ -1,0 +1,4 @@
+en la propuesta de pk naturales presentar las tablas completas
+detalle fry, docentes y comision tienen una relacion ternaria, reemplazarla por relaciones binarias
+hay una relacion de relaciones entre comision y detalle fry, eso esta mal
+detalle campus, comision, stock inventario no tienen pk
