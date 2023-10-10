@@ -1,0 +1,6 @@
+entre facturacion y ventas la cardinalidad no se entiende
+realizar der al estilo diagrama de clases
+No hay entidad de usuarios
+No hay entidad de roles
+la relacion entre ventas y clientes no es válida, debería ser entre facturacion y cliente
+La normalización presentada no está en forma universal, no es lo que se pide.
