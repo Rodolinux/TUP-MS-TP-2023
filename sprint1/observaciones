@@ -1,0 +1,5 @@
+falta entidad rol que se vincule con entidad usuario, corregir
+la pk de usuarios es incorrecta, tampoco tiene contraseña
+precio_iva debe ir en items
+los proveedores no interactuan directamente con stock, sino que es compras quien lo hace; eliminar relacion
+una sucursal puede tener muchos incentivos, corregir
