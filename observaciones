@@ -1,0 +1,7 @@
+los proveedores no interactuan directamente con stock, sino que es compras quien lo hace; eliminar relacion
+facturacion no puede tener id_item y cantidad, eso va en la tabla de detalle
+Además un proveedor puede ser una persona jurídica o una sociedad SRL, SH, o SA. Corregir
+relaciones con doble linea? ver
+revisar las pk y fk del der porque no coinciden. Ej docente y cursos
+Un docente puede tener muchos bonos
+relacion compras-items innecesaria. El item descuenta de stock al momento de la venta. En todo caso compras debería vincularse con stock
