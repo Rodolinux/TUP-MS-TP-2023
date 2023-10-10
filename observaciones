@@ -1,0 +1,6 @@
+eliminar flechas y  uso de relaciones ternarias. A causa de la relación ternaria, no se entiende la relación y cardinalidad de docentes con clientes
+revisar nombres de pk y fk relacionados, que coincidan, ej facturacion_items con items no coinciden pks, el mismo caso en stock y proveedor
+ la tabla de facturacion no debe llevar codigo_items, tampoco precio_unitario, precio_iva, cantidad,  eso va en la tabla de detalle. Así como está planteada, solo permitirá la emisión de facturas de un solo articulo
+ buscar la forma de unificar cursos y articulos en facturación, ya que a los efectos prácticos, el curso es un articulo intangible que se produce localmente. El código de curso puede emplearse como un código de articulo
+ un rol puede estar en muchos usuarios; en usuarios falta el campo de contraseña
+ en clientes no debe ir id_curso, ya que el cliente también adquiere insumos
