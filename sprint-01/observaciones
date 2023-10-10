@@ -1,0 +1,3 @@
+en casos puntuales la normalizacion no coincide con der, ej, localidad tiene cod_postal como pk y sucursal id_localidad como fk; tampoco hay una relación entre ambas entidades
+hay relaciones que no tienen una cardinalidad identificada, revisar
+eliminar relacion proveedor-item
