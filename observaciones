@@ -1,0 +1,6 @@
+eliminar flechas; 
+hay una relación que tiene graficada una notación 1 a muchos pero está incorrectamente usada
+cantidad debe estar en items, lo mismo que precio_iva
+los proveedores no interactuan directamente con stock, sino que es compras quien lo hace; eliminar relacion
+falta entidades de bonificaciones x sucursal y comisión por venta a docente
+en la propuesta de pk naturales presentar las tablas completas
