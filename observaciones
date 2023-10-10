@@ -1,0 +1,4 @@
+la relacion entre proveedores y persona falla cuando el proveedor es una persona jurídica o sociedad de tipo SA, SRL, etc donde no hay dni. Eliminar
+Facturación no lleva cantidad, esto debería ir en item
+Persona no debe tener nombre_usuario, en todo caso en usuario referenciar a dni
+La normalización presentada no está en forma universal, no es lo que se pide.
