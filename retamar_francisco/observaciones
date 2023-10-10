@@ -1,0 +1,4 @@
+cardinalidad de usuario rol incorrecta, un rol puede estar en muchos usuarios
+cardinalidad de relación factura item incorrecta, una factura puede tener muchos items,  corregir
+facturacion no debe tener item_id, eso va en items
+items no tiene cantidad ni el fk de los articulos, y debe apuntar a facturacion
