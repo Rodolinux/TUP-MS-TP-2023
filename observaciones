@@ -1,0 +1,8 @@
+en una localidad puede haber más de una sucursal
+un proveedor puede proveer más de un tipo de insumo
+ventas y ventas_cursos tienen una estructura casi identica, en realidad un curso es un intangible que se puede facturar en ventas. Corregir
+venta_detalles debe tener precio y cantidad, que está en stock
+no hay entidad compras
+cardinalidad con maestro detalle de facturación invertida, corregir
+normalizacion con pk naturales
+reemplazar id_empleado por dni
