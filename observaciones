@@ -1,8 +1,0 @@
-El DER debe representar la estructura de datos para el nuevo sistema hermes, no la situación actual
-No hay entidad de usuarios y roles
-No hay entidad de empleados
-No hay entidad de capacitaciones de empleados
-No hay entidad de bonos y productividad
-No hay entidad de localidad
-No hay PK y FK identificadas en DER
-La normalización presentada no está en forma universal, no es lo que se pide.
