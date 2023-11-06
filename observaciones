@@ -1,0 +1,7 @@
+usar relaciones binarias en vez de ternarias
+la cardinalidad en la relación rol-usuario es incorrecta, un rol puede estar en muchos usuarios
+así como está planteada, la tabla de facturacion solo permitirá un solo item por factura; crear una tabla de items de factura, con una relación 1:naturales
+hay relaciones con cardinalidades incompletas, corregir
+cursos está relacionado solo con facturación, pero la cardinalidad es incorrecta, fruto de no tener la tabla de items de factura
+los proveedores pueden ser personas, pero tambien empresas; eliminar relación
+la normalización, si bien contiene lo que se solicita, no está en la forma universal como se dio en clase; corregir
