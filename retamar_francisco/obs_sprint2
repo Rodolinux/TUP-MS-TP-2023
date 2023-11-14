@@ -1,0 +1,17 @@
+1-buchet, gietz, retamar
+	der:
+		aprobado
+	diag de clases:
+		son agregaciones las composiciones de:
+			compras_actuales-proveedores
+			cursos-items
+	diag de estado:
+		cuando se devuelve vuelve a stock. Se debe aclarar la condición; falta cálculo de comisión
+	prototipos:
+		se apreciarían mejor con datos; ABM curso 2 es una ventana de curso 1?
+		
+	casos de uso:
+		ningun caso de uso tiene definido el alcance (el recuadro que engloba las funcionalidades (los globos)); las funcionalidades no se ubican al mismo nivel que los actores
+		hay errores ortográficos, de tipeo y falta de acentos; no se usa la palabra "agarra" en una redacción formal
+		es Leela, no Léela
+		registro de comisiones: la comisión es sobre las ventas, no sobre los cursos
