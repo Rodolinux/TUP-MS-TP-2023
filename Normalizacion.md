@@ -12,7 +12,9 @@
 
 - SUCURSAL(__Punto_venta (PK natural)__,nombre,direccion,localidad,telefono)
 
-- PERSONAS(__Dni (PK natural)__, Nombre, Direccion, Localidad, Codigo_postal, Telefono, Correo, **rol**)
+- PERSONAS(__Dni (PK natural)__, Nombre, Direccion, Localidad, Codigo_postal, Telefono, Correo)
+
+- USUARIO(__id_usuario (PK)__, **dni_persona**, contrasenia, **id_rol**)
 
 - PROVEEDORES(__Id (PK)__, Nombre, Cuit, Tipo_iva, Direccion, Ciudad, Provincia, Tipo_insumo, Activo)
 
