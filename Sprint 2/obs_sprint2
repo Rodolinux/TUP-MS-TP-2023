@@ -1,0 +1,11 @@
+der:
+		aprobado
+diag de clases:
+		no contempla la comision de los docentes
+diag de estado:
+		aprobado
+casos de uso:
+		faltan graficar registro de comisiones a docentes y registro de alumnos. No se deben encadenar funcionalidades para graficar secuencia. 
+		Una comisión, en cualquier negocio, surge a partir de una venta, y en este caso es de un producto, no de los cursos, por lo que el cálculo de la comisión es un efecto esperado a partir de una venta.
+prototipos:
+    aprobado
