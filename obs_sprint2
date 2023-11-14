@@ -1,0 +1,17 @@
+der:
+		aprobado
+
+prototipos:
+		aprobado
+
+diag de estado:
+		faltaría la actualización de stock tras la venta. 
+		¿Solo se vende por extranet?
+
+diag de clases:
+		aprobado
+
+casos de uso:
+		en registro de cursos no se pide la carga de alumnos. Tengan en cuenta que los alumnos se enrolan en los cursos en el moodle
+		en compras leela la funcionalidad actualizar stock se encuentra fuera de recuadro
+		en los 2 últimos casos de uso se emplean secuencias o listados de acciones que se pueden resumir en una funcionalidad; los extends e includes estan correctos.
