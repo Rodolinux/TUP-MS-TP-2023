@@ -1,0 +1,11 @@
+	der:
+		aprobado
+  prototipos:
+    aprobado
+	diag de clases:
+		faltan cardinalidades. ¿Es todo agregación? Hay otras relaciones tambien en la teoría, como las binarias simples, la herencia y las composiciones.
+	diag de estado:
+		la comisión no es un estado, sino que se debe marcar como una acción adicional en la transición de la venta concretada. Faltaría el estado Entregado luego de la acción Pagar para que cierre el diagrama
+	casos de uso:
+		no se deben graficar las acciones de una funcionalidad por separado, antes bien resumirlas en una sola funcionalidad. ej en el caso 1, cálculo, cobro y consulta corresponden a la misma funcionalidad. los extends e includes son correctos.
+		las comisiones no se pagan una a una, sino que se adicionan a los haberes mensuales, por otra parte, el usuario no se dedica a pagar comisiones a docentes sino a facturar para la empresa, por lo que los pasos 1 y 5 son innecesarios.
