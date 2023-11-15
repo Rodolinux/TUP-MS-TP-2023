@@ -1,0 +1,19 @@
+	der:
+		aprobado
+
+	prototipos:
+		aprobado
+
+	diag de estado:
+	  comisión no es un estado, sino que se calcula como una acción adicional en la transición de venta concretada. Por otra parte se debe contemplar la posibilidad que el producto sea devuelto
+
+	diag de clases:
+		no lleva la palabra extends en la herencia (aunque el software con el que se diagramó lo proponga)
+
+	casos de uso:
+		caso 1:
+			las comisiones son sobre la venta de articulos, no sobre los cursos
+		caso 3:
+      no se deben enumerar acciones de la funcionalidad. Cuando nos damos cuenta de eso, debemos resumirlas en una sola funcionalidad. Tampoco en el escenario principal hay que divagar sobre que es lo que sucede alrededor del sistema sino que hay que enfocarse en el sistema en sía
+		caso 5:
+			idem anterior
